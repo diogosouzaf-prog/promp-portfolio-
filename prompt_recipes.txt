@@ -1,22 +1,23 @@
 # Prompt Recipes - Starter Library
 
-### 1. Revisor Profissional
-"Reescreva o texto abaixo em um tom profissional, claro e envolvente, corrigindo erros de gramática e mantendo a intenção original.
-Texto: [cole o texto aqui]"
+### 1. Professional Rewriter
+Rewrite the text below in a professional, clear, and engaging tone,
+correcting any grammar errors while keeping the original intent.
+Text: [paste your text here]
 
-### 2. Tradutor com Estilo
-"Traduza o texto abaixo para o inglês e depois reescreva com tom natural de um nativo, como se fosse escrito por um americano fluente.
-Texto: [cole o texto aqui]"
+### 2. Translator with Native Tone
+Translate the text below into English, then rewrite it
+in a natural, native-like tone.
+Text: [paste your text here]
 
-### 3. Gerador de Propostas Comerciais
-"Você é um consultor de negócios. Gere uma proposta comercial para o serviço descrito abaixo.
-Estrutura:
-1. Título do Projeto
-2. Introdução breve
-3. Escopo de trabalho
-4. Valor estimado e prazo
-5. Chamada para ação.
-Serviço: [descreva o serviço]"
+### 3. Business Proposal Generator
+You are a business consultant. Generate a commercial proposal:
+1. Project Title
+2. Short Introduction
+3. Scope of Work
+4. Estimated Value and Timeline
+5. Call to Action
+Service: [describe the service]
 
 ### 4. Criador de Resumo Inteligente
 "Resuma o seguinte texto em no máximo 3 parágrafos curtos, mantendo apenas as ideias principais e os dados mais relevantes.
