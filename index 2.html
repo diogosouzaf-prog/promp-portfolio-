@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diogo — Prompt Engineering Portfolio</title>
+  <meta name="description" content="Prompt Engineer & Generative AI Specialist — portfolio by Diogo Fernandes de Souza (Huntsville, AL)." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/avatar.svg" alt="Avatar" class="avatar" />
+        <div>
+          <h1>Diogo Fernandes de Souza</h1>
+          <p class="subtitle">Prompt Engineer & Generative AI Specialist — Huntsville, AL</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#library">Prompt Library</a>
+        <a href="#about">About</a>
+        <a class="cta" href="mailto:diogosouzaf.prog@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Designing prompts and AI workflows that deliver business results.</h2>
+      <p class="lead">I build assistants, RAG pipelines, and automations that turn documents, processes, and data into actionable outcomes.</p>
+      <div class="cta-row">
+        <a class="btn" href="#projects">See Projects</a>
+        <a class="btn outline" href="#library">Prompt Recipes</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h3>Featured Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Task Assistant</h4>
+          <p>LLM-powered personal productivity assistant that prioritizes tasks by urgency and impact. Includes clear output format and tone controls.</p>
+          <ul>
+            <li>Prompt patterns: role, constraints, format</li>
+            <li>Outcome: faster daily planning</li>
+          </ul>
+          <a class="link" href="https://github.com/diogosouzaf-prog/promp-portfolio/tree/main/02_projects/project1_task_assistant" target="_blank">View in GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h4>Translator & Tone Rewriter</h4>
+          <p>Context-aware translation (PT/EN/ES) with native tone rewriting for marketing, support, and technical content.</p>
+          <ul>
+            <li>Prompt patterns: style guides, tone sliders</li>
+            <li>Outcome: consistent brand voice</li>
+          </ul>
+          <a class="link" href="https://github.com/diogosouzaf-prog/promp-portfolio/tree/main/02_projects/project2_translator_tone" target="_blank">View in GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h4>RAG Assistant (Docs → Answers)</h4>
+          <p>Prototype of a retrieval-augmented assistant that cites sources from PDFs/Docs to answer business questions.</p>
+          <ul>
+            <li>Prompt patterns: citation guardrails, refusal policy</li>
+            <li>Outcome: trustworthy, auditable responses</li>
+          </ul>
+          <a class="link" href="#contact" onclick="window.location='mailto:diogosouzaf.prog@gmail.com'">Request demo →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="library" class="section alt">
+    <div class="container">
+      <h3>Prompt Recipes</h3>
+      <div class="grid">
+        <article class="recipe">
+          <h4>Professional Rewriter</h4>
+          <pre><code>Rewrite the text below in a professional, clear, and engaging tone,
+correcting any grammar errors while keeping the original intent.
+Text: [paste your text here]</code></pre>
+        </article>
+        <article class="recipe">
+          <h4>Translator with Native Tone</h4>
+          <pre><code>Translate the text below into English, then rewrite it
+in a natural, native-like tone.
+Text: [paste your text here]</code></pre>
+        </article>
+        <article class="recipe">
+          <h4>Business Proposal Generator</h4>
+          <pre><code>You are a business consultant. Generate a commercial proposal:
+1. Project Title
+2. Short Introduction
+3. Scope of Work
+4. Estimated Value and Timeline
+5. Call to Action
+Service: [describe the service]</code></pre>
+        </article>
+      </div>
+      <p class="more"><a class="link" target="_blank" href="https://github.com/diogosouzaf-prog/promp-portfolio/blob/main/03_prompt_library/prompt_recipes.txt">See full library in GitHub →</a></p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h3>About</h3>
+      <p>I’m transitioning from construction to AI, focused on prompt engineering and practical GenAI solutions. I build clear, reliable LLM workflows with strong documentation and measurable outcomes. Open to freelance, consulting, or remote roles.</p>
+      <ul class="badges">
+        <li>Generative AI</li>
+        <li>Prompt Engineering</li>
+        <li>RAG</li>
+        <li>Automation</li>
+        <li>PT/EN/ES</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn" href="mailto:diogosouzaf.prog@gmail.com">Contact</a>
+        <a class="btn outline" target="_blank" href="https://github.com/diogosouzaf-prog/promp-portfolio">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Diogo Fernandes de Souza — Huntsville, AL</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
