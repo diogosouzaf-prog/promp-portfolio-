@@ -1,0 +1,35 @@
+# Prompt Recipes - Starter Library
+
+### 1. Revisor Profissional
+"Reescreva o texto abaixo em um tom profissional, claro e envolvente, corrigindo erros de gramática e mantendo a intenção original.
+Texto: [cole o texto aqui]"
+
+### 2. Tradutor com Estilo
+"Traduza o texto abaixo para o inglês e depois reescreva com tom natural de um nativo, como se fosse escrito por um americano fluente.
+Texto: [cole o texto aqui]"
+
+### 3. Gerador de Propostas Comerciais
+"Você é um consultor de negócios. Gere uma proposta comercial para o serviço descrito abaixo.
+Estrutura:
+1. Título do Projeto
+2. Introdução breve
+3. Escopo de trabalho
+4. Valor estimado e prazo
+5. Chamada para ação.
+Serviço: [descreva o serviço]"
+
+### 4. Criador de Resumo Inteligente
+"Resuma o seguinte texto em no máximo 3 parágrafos curtos, mantendo apenas as ideias principais e os dados mais relevantes.
+Texto: [cole aqui]"
+
+### 5. Gerador de Ideias de Conteúdo
+"Você é um especialista em marketing digital. Gere 5 ideias de postagens curtas para redes sociais sobre o tema abaixo, com tom criativo e natural.
+Tema: [tema aqui]"
+
+### 6. Analisador de E-mails
+"Analise o e-mail abaixo e extraia:
+- Tópico principal
+- Ação solicitada
+- Prazo (se houver)
+- Grau de urgência (Alta/Média/Baixa)
+Texto: [cole o e-mail aqui]"
