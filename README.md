@@ -1,4 +1,4 @@
-# 🧠 Prompt Engineering Portfolio – Diogo Fernandes de Souza
+# 🧠 Prompt Engineering Portfolio – Diogo Fernandes
 
 Welcome to my professional portfolio as a **Prompt Engineer & Generative AI Specialist**.
 
